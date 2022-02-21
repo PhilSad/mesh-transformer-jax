@@ -26,7 +26,14 @@
 
   "train_set": "scp.train.index",
   "val_set": {},
-
+  "eval_harness_tasks": [
+    "lambada",
+    "piqa",
+    "hellaswag",
+    "winogrande",
+    "mathqa",
+    "pubmedqa"
+  ],
 
   "val_batches": 100,
   "val_every": 400000,
